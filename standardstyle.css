@@ -1,0 +1,101 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 18-jun-2014, 21:21:29
+    Author     : Richard de Jongh
+*/
+body{
+    background-image: url('img/chick.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#banner{
+    text-align: center;  
+}
+
+
+header {
+    display: block;
+    width: 1120px;
+    height: 75px;
+    background-size: 40px 40px;
+    background-repeat: repeat;
+    padding: 0px;
+    padding-left: 120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+footer{
+    display: block;
+    width:1110px;
+    height: 20px;
+    background-color: #341A09;
+    padding: 3px;
+
+    text-align: center;
+    color: #FFF;
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 75px;
+    border-style: solid none none none;
+    border-color: rgba(255,190,0, 1);
+    border-width: 3px;
+}
+
+footer a {
+    text-decoration: underline;
+    color: #FFF;
+    transition:color 0.9s;
+}
+
+footer a:hover {color: #000;}
+
+#maincontent {
+    text-align: center;
+    display: block;
+    width: 1120px;
+    height: 100%;
+
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+section {
+    display: block;
+    width:800px;
+    height: 100%;
+    background-color: rgba(255,255,255, 0.7);
+    border-style: solid;
+    border-color: #341A09;
+    border-width: 2px;
+    border-radius: 5px;
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+article {
+    display: block;
+    width:780px;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-style: none none solid none;
+    border-radius: 10px;
+    border-color: #341A09;
+    border-width: 8px;
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+article img{
+    height: 500px;
+    width: 600px;
+    
+}
+
